@@ -1,14 +1,12 @@
 
 
-// MIDI controller for Amplifire V1.01 March 5 2016
+// MIDI controller for Amplifire V1.02 March 25 2016
 // This programme is written for the Arduino series of micro controllers and has been tested on the Uno amd Nano boards
 // Programme to enable A/B preset switching for Atomic Amplifire via MIDI
 // and act as a wah pedal with an expression pedal connected to Arduino pin A0
 // 4 foot switches are supported of the momentary close type and connecting pins 2,3,4,5 to ground
 // a 5th footswitch toggles between a high and a low volume will be the next feature to add
 // a pot on pin A0 to input a voltage between 0 and 5V
-// a DIN midi socket (pin 4) connected to Arduino tx pin via a 220 Ohm resistor 
-// DIN socket pin 3 connected to ground and pin 2 connected to + 5v via aother 220 Ohm resistor
 
 #include <RBD_Timer.h> // timer library required by the button library
 #include <RBD_Button.h> // button library
